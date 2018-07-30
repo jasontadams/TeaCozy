@@ -56,7 +56,17 @@
   width: 100%;
 }
 
+#featured {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.menuitem {
+  width: 300px;
+  height: 200px;
+}
 
 .footer {
   display:block;
