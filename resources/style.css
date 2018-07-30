@@ -6,3 +6,35 @@
   opacity: 0.9;
   text-align: center;
 }
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  opacity: 1;
+  z-index: 5;
+  width: 1400px;
+  align-items: center;
+  top: 0;
+}
+
+#header-logo {
+  margin-left: 10px;
+  height: 50px;
+}
+
+#header-navbox {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.navlinks {
+  margin: 10px;
+}
+
+.main {
+  top: 70px;
+  position: relative;
+}
