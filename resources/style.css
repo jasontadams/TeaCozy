@@ -35,9 +35,17 @@
   font-weight: normal;
 }
 
+#mission {
+  background-image: url(./images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
 .main {
   top: 70px;
   position: relative;
+  width: 100%;
+  justify-content: center;
 }
 
 .footer {
