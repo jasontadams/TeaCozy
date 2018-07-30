@@ -35,18 +35,28 @@
   font-weight: normal;
 }
 
+.main {
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
 #mission {
   background-image: url(./images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
+  display: flex;
+  align-items: center;
 }
 
-.main {
-  top: 70px;
-  position: relative;
+#mission-text {
   width: 100%;
-  justify-content: center;
 }
+
+
 
 .footer {
   display:block;
