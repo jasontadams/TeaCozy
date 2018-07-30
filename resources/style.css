@@ -1,6 +1,5 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -8,6 +7,7 @@
 }
 
 .header {
+  top: 0;
   height: 69px;
   border-bottom: 1px solid seashell;
   display: flex;
@@ -15,9 +15,9 @@
   position: fixed;
   opacity: 1;
   z-index: 5;
-  width: 1400px;
   align-items: center;
-  top: 0;
+  width: 100%;
+  flex-grow: 1;
 }
 
 #header-logo {
@@ -32,9 +32,32 @@
 
 .navlinks {
   margin: 10px;
+  font-weight: normal;
 }
 
 .main {
   top: 70px;
   position: relative;
+}
+
+.footer {
+  display:block;
+  position: relative;
+  top: 70px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
